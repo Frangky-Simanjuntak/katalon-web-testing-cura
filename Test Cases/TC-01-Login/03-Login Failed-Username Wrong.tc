@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>03-Login Failed-Username Wrong</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9096afad-39c2-46e4-89ca-317d7c5508e0</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>74d17400-3358-4ac5-9263-a79cfdd5473b</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>ddee9158-3bab-44bc-914e-ab5b764e6014</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Joh Do'</defaultValue>
+      <description></description>
+      <id>74d17400-3358-4ac5-9263-a79cfdd5473b</id>
+      <masked>false</masked>
+      <name>usernameWrong</name>
+   </variable>
+   <variable>
+      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
+      <description></description>
+      <id>ddee9158-3bab-44bc-914e-ab5b764e6014</id>
+      <masked>false</masked>
+      <name>password_</name>
+   </variable>
+</TestCaseEntity>

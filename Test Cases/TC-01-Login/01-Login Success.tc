@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>01-Login Success</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>857c060b-955f-45ce-9311-0e83eb895ec6</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>c4d3b67a-c672-4ab7-8f55-dac74321c222</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b572c318-282e-4dee-b08f-5686b966f204</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2d751d0d-bf98-4da4-aadc-8d6c6d3b9cf9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>b406ba36-ec05-41e1-b4a9-710cbc3e1a8c</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'John Doe'</defaultValue>
+      <description></description>
+      <id>c4d3b67a-c672-4ab7-8f55-dac74321c222</id>
+      <masked>false</masked>
+      <name>username_</name>
+   </variable>
+   <variable>
+      <defaultValue>'g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM'</defaultValue>
+      <description></description>
+      <id>b572c318-282e-4dee-b08f-5686b966f204</id>
+      <masked>false</masked>
+      <name>password_</name>
+   </variable>
+   <variable>
+      <defaultValue>findTestObject('make Appointment/h2_Make Appointment')</defaultValue>
+      <description></description>
+      <id>2d751d0d-bf98-4da4-aadc-8d6c6d3b9cf9</id>
+      <masked>false</masked>
+      <name>objectH2MakeAppointment</name>
+   </variable>
+   <variable>
+      <defaultValue>'Make Appointment'</defaultValue>
+      <description></description>
+      <id>b406ba36-ec05-41e1-b4a9-710cbc3e1a8c</id>
+      <masked>false</masked>
+      <name>expectedText</name>
+   </variable>
+</TestCaseEntity>

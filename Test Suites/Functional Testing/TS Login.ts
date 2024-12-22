@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>TS Login</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>28</pageLoadTimeout>
+   <pageLoadTimeoutDefault>false</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>true</rerunImmediately>
+   <testSuiteGuid>0798b310-3c51-40d4-8175-022f28729b20</testSuiteGuid>
+   <testCaseLink>
+      <guid>aa0c084a-6748-49ab-a82b-713a16eb053e</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC-01-Login/01-Login Success</testCaseId>
+      <testDataLink>
+         <combinationType>MANY</combinationType>
+         <id>ce2203a2-3390-446e-9f74-cf7cc4be37c0</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/katalonData/validLogin</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>ce2203a2-3390-446e-9f74-cf7cc4be37c0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username_</value>
+         <variableId>c4d3b67a-c672-4ab7-8f55-dac74321c222</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>ce2203a2-3390-446e-9f74-cf7cc4be37c0</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password_</value>
+         <variableId>b572c318-282e-4dee-b08f-5686b966f204</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>2d751d0d-bf98-4da4-aadc-8d6c6d3b9cf9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>b406ba36-ec05-41e1-b4a9-710cbc3e1a8c</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>c5378fe8-0e3c-46f6-88bb-d24337688b4f</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC-01-Login/02-Login Failed-Password Wrong</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>80f4affe-5304-4820-b623-783a058da543</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/katalonData/validLogin</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>80f4affe-5304-4820-b623-783a058da543</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>username_</value>
+         <variableId>fa14219d-9c94-4e90-a56d-dc53b5f285bb</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>80f4affe-5304-4820-b623-783a058da543</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>passwordWrong</value>
+         <variableId>b9bfe2e2-eb4a-41b2-82a9-a2f14f5bb862</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>5431ad2a-b292-403f-8955-bf22abe5f619</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/TC-01-Login/03-Login Failed-Username Wrong</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e15e2d74-aa8a-483b-832b-79350443ea1c</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/katalonData/validLogin</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>e15e2d74-aa8a-483b-832b-79350443ea1c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>usernameWrong</value>
+         <variableId>74d17400-3358-4ac5-9263-a79cfdd5473b</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e15e2d74-aa8a-483b-832b-79350443ea1c</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>password_</value>
+         <variableId>ddee9158-3bab-44bc-914e-ab5b764e6014</variableId>
+      </variableLink>
+   </testCaseLink>
+   <testCaseLink>
+      <guid>abf5277a-a5da-469f-9959-abc62fac58f1</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/blocks/logout</testCaseId>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+   </testCaseLink>
+</TestSuiteEntity>

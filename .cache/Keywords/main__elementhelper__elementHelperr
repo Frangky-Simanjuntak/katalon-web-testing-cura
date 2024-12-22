@@ -1,0 +1,93 @@
+{
+  "keywordFileContentHash": "EC01BCC52F06AEDE2FAE645B78AB725E",
+  "keywordClasses": [
+    {
+      "name": "main.elementhelper.ElementHelper",
+      "keywordMethods": [
+        {
+          "name": "verifyVisibility",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "verifyNotVisible",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "getText",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "verifyText",
+          "parameters": [
+            {
+              "name": "expectedText",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "setText",
+          "parameters": [
+            {
+              "name": "text",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "click",
+          "parameters": [],
+          "javadoc": ""
+        },
+        {
+          "name": "setEncryptedText",
+          "parameters": [
+            {
+              "name": "encryptedText",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "verifyElementExists",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>login-get-element</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b12d4827-6f67-497a-b5e0-f6265a8e73d2</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>2651f40d-c02b-4969-be34-39e8750b9708</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'//a[@id=\'btn-make-appointment\']'</defaultValue>
+      <description></description>
+      <id>2651f40d-c02b-4969-be34-39e8750b9708</id>
+      <masked>false</masked>
+      <name>objectMakeAppointment</name>
+   </variable>
+</TestCaseEntity>

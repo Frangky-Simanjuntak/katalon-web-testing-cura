@@ -1,0 +1,16 @@
+{
+  "keywordFileContentHash": "D85C0131155C780E5F6C0EB8ABC76B4D",
+  "keywordClasses": [
+    {
+      "name": "main.openbrowser.OpenBrowser",
+      "keywordMethods": [
+        {
+          "name": "openBrowser",
+          "parameters": [],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

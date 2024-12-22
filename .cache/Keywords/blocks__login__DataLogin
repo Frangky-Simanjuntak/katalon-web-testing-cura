@@ -1,0 +1,10 @@
+{
+  "keywordFileContentHash": "44E9A8BB1B181DDD3A0CC462B3169B6A",
+  "keywordClasses": [
+    {
+      "name": "blocks.login.DataLogin",
+      "keywordMethods": []
+    }
+  ],
+  "javadocParsed": true
+}

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Make Appointment</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>65006dca-3360-4b84-b40e-4e98248e909e</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>6b5af515-3fe2-47e5-8070-81f4d6145ee6</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8b6a22ae-401f-47c4-8045-48fee98f3432</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>8b2c44e3-4511-4a4d-92b7-14e7468468cb</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>e5ab9f69-1a10-420a-948b-2b4b4ec96a5f</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>01ac0069-7561-49cf-b481-4dea8be9ca9f</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Hongkong CURA Healthcare Center'</defaultValue>
+      <description></description>
+      <id>6b5af515-3fe2-47e5-8070-81f4d6145ee6</id>
+      <masked>false</masked>
+      <name>facility</name>
+   </variable>
+   <variable>
+      <defaultValue>'13/11/24'</defaultValue>
+      <description></description>
+      <id>8b6a22ae-401f-47c4-8045-48fee98f3432</id>
+      <masked>false</masked>
+      <name>visitDate</name>
+   </variable>
+   <variable>
+      <defaultValue>'Variable komentar'</defaultValue>
+      <description></description>
+      <id>8b2c44e3-4511-4a4d-92b7-14e7468468cb</id>
+      <masked>false</masked>
+      <name>comment</name>
+   </variable>
+   <variable>
+      <defaultValue>'Medicaid'</defaultValue>
+      <description></description>
+      <id>e5ab9f69-1a10-420a-948b-2b4b4ec96a5f</id>
+      <masked>false</masked>
+      <name>healthCareProgram</name>
+   </variable>
+   <variable>
+      <defaultValue>false</defaultValue>
+      <description></description>
+      <id>01ac0069-7561-49cf-b481-4dea8be9ca9f</id>
+      <masked>false</masked>
+      <name>hospitalReadmissionYesNo</name>
+   </variable>
+</TestCaseEntity>
