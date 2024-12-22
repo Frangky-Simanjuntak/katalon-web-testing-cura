@@ -1,0 +1,1 @@
+# katalon-web-testing-cura
